@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'webrick'
+gem 'pg'
+gem 'dotenv'
 
 group :test do
   gem 'capybara'
