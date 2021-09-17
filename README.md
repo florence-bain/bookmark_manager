@@ -26,9 +26,15 @@ I want to be able to delete bookmarks from the list
 ```
 --
 ```
-1. Connect psql
-2. Create a database using psql CREATE DATABASE bookmaker_manager;
-3. Connect to the database using psql command \c bookmark_manager;
-4. Run the query 01_create_bookmarks_table.sql
+Connect psql
+Create a database using psql CREATE DATABASE bookmaker_manager;
+Connect to the database using psql command \c bookmark_manager;
+Run the query 01_create_bookmarks_table.sql
+```
+```
+Updating the database to add another column
+Use ALTER TABLE bookmarks ADD COLUMN title VARCHAR(60);
+Run the query 02_add_title_to_bookmarks.sql
+
 ```
 ````
